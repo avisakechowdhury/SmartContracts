@@ -4,7 +4,7 @@ pragma solidity >= 0.6.0;
 
 import "./SimpleStorage.sol";
 
-contract StorageFactory{
+contract StorageFactory is SimpleStorage{
 
     // Create an array to store different SimpleStorage's created
     SimpleStorage[] public simpleStorageArray;
